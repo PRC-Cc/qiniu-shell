@@ -1,0 +1,36 @@
+{
+  "name": "qiniu-shell",
+  "version": "2.0.3",
+  "description": "A tool of qiniu's file operation",
+  "main": "index.js",
+  "keywords": [
+    "qiniu",
+    "qshell",
+    "cshell",
+    "upload",
+    "cdn"
+  ],
+  "homepage": "https://github.com/PRC-Cc/qiniu-shell#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRC-Cc/qiniu-shell.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.17.1"
+  },
+  "bin": {
+    "cshell": "./bin/cshell.js"
+  },
+  "author": "cc",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "inquirer": "^7.0.0",
+    "qiniu": "^7.2.1",
+    "request": "^2.88.0"
+  }
+}
