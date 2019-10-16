@@ -3,7 +3,7 @@ var program = require("commander");
 var colors = require("colors");
 
 program
-  .version("2.0.3")
+  .version("2.0.4")
   .usage("[command] [option]")
   .command("upload", "upload files")
   .command("download", "download files")
