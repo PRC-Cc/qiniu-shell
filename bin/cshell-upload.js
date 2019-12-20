@@ -18,6 +18,10 @@ program
     "-o, --originDirectoryPath [value]",
     'Directory\'s path of the files to upload, default is "dist"'
   )
+  .option(
+    "-n, --concurrencyNumber [value]",
+    'Concurrency number of action. default is 40'
+  )
   .parse(process.argv);
 
 if (isEmpty(program.accessKey)) {

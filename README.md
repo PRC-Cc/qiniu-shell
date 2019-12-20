@@ -34,6 +34,7 @@ $ cshell upload -a accessKey -s secretKey -b bucket -p prefix/ -o originDirector
   -f, --force                        Whether to overwrite upload.
   -z --zone [value]                  Online zone. one of "huad"、"huab"、"huan"、"beim"、"z0"、"z1"、"z2"、"na0"
   -o, --originDirectoryPath [value]  Directory's path of the files to upload, default is "dist"
+  -n, --concurrencyNumber [value]    Concurrency number of action. default is 40
   -h, --help                         output usage information
 ```
 
